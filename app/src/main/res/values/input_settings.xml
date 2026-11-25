@@ -1,0 +1,28 @@
+<resources>
+    <string name="input_keyboard_operations_heading">キーボード操作</string>
+    <string name="input_hide_keyboard_on_physical_typing">物理キーで入力すると画面キーボードを隠す</string>
+    <string name="input_space_drag_moves_cursor">Spaceのドラッグでカーソルを移動</string>
+    <string name="input_backspace_drag_repeats_deletion">Backspaceの左ドラッグで連続削除</string>
+    <string name="input_conversion_heading">変換</string>
+    <string name="input_live_conversion">ライブ変換</string>
+    <string name="input_live_conversion_help">Spaceを押す前に、入力中の読みをかな漢字変換します。</string>
+    <string name="input_symbols_heading">記号とスペース</string>
+    <string name="input_japanese_punctuation_after_latin">英数字の後も日本語の句読点を優先</string>
+    <string name="input_commit_on_punctuation">句読点入力で確定する</string>
+    <string name="input_punctuation_style">句読点の種類</string>
+    <string-array name="input_punctuation_styles">
+        <item>、。</item>
+        <item>，．</item>
+        <item>，。</item>
+        <item>、．</item>
+    </string-array>
+    <string name="input_punctuation_help">小数やURLの区切りは半角のままです。未確定の句読点はEnterで確定できます。</string>
+    <string name="input_prefer_middle_dot">/ キーで「・」を優先</string>
+    <string name="input_middle_dot_help">中黒の入力では確定しません。Ctrl＋Pで全角の「／」、Ctrl＋Oで半角の「/」に変換できます。</string>
+    <string name="input_z_shortcuts">z＋記号・hjklで記号・矢印を入力</string>
+    <string name="input_empty_space">未入力時のSpace</string>
+    <string-array name="input_space_widths">
+        <item>半角を優先</item>
+        <item>全角を優先</item>
+    </string-array>
+</resources>

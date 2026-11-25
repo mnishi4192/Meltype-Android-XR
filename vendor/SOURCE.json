@@ -1,0 +1,10 @@
+{
+  "llama.cpp": {
+    "repository": "https://github.com/ggml-org/llama.cpp",
+    "commit": "51a77c4f247ce96fb932e29c9f81625ca9d3b0b7",
+    "archive_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/51a77c4f247ce96fb932e29c9f81625ca9d3b0b7",
+    "archive_sha256": "bfbe01bb04660dd3c43101dd522863e6b57ad976e89791b7d72b91241af34a5b",
+    "license": "MIT",
+    "local_modifications": "See PATCHES.md for Zenzai tokenizer compatibility changes."
+  }
+}

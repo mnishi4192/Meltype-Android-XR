@@ -1,0 +1,299 @@
+{
+  "apk": "dist/Meltype-Android-XR-0.8.0-build9-CPU.apk",
+  "apk_sha256": "82c208d475d814ca8d3e43d29ce449571894d7eb8437de0961808f5b31b173e6",
+  "inference_backend": "CPU",
+  "apk_bytes": 131020703,
+  "native_libraries": [
+    {
+      "entry": "lib/arm64-v8a/libMeltypeNative.so",
+      "sha256": "a2a0c4b226f96b6c5632522a025fc6ff7ba61e5d6e121c03438cb0bb8da1f34d",
+      "bytes": 21087992,
+      "elf64_aarch64": true,
+      "zip_stored": true,
+      "zip_data_offset": 4341760,
+      "zip_aligned_16kb": true,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 20949520,
+          "vaddr": 20965904,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 20959328,
+          "vaddr": 20992096,
+          "alignment": 16384,
+          "compatible_16kb": true
+        }
+      ],
+      "needed": [
+        "libdl.so",
+        "liblog.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "unpackaged_non_system_dependencies": [],
+      "official_ime_exports": {
+        "meltype_android_init_with_zenzai": true,
+        "meltype_set_conversion_ready": true,
+        "meltype_ime_handle": true,
+        "meltype_ime_create": true,
+        "meltype_ime_destroy": true,
+        "meltype_free": true
+      }
+    },
+    {
+      "entry": "lib/arm64-v8a/libc++_shared.so",
+      "sha256": "b5d97c38a728afe28d341cda3369f512d35eaf9c680c1b0563cd6a63e395230f",
+      "bytes": 1423696,
+      "elf64_aarch64": true,
+      "zip_stored": true,
+      "zip_data_offset": 25444352,
+      "zip_aligned_16kb": true,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 1379184,
+          "vaddr": 1395568,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 1420376,
+          "vaddr": 1453144,
+          "alignment": 16384,
+          "compatible_16kb": true
+        }
+      ],
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "unpackaged_non_system_dependencies": []
+    },
+    {
+      "entry": "lib/arm64-v8a/libmeltype_core.so",
+      "sha256": "5c8e384edd87967fc4707d1c47eaed27579cd7d034ad6e01e9828fb22e2f999b",
+      "bytes": 5602232,
+      "elf64_aarch64": true,
+      "zip_stored": true,
+      "zip_data_offset": 26869760,
+      "zip_aligned_16kb": true,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 5490800,
+          "vaddr": 5507184,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 5596952,
+          "vaddr": 5629720,
+          "alignment": 16384,
+          "compatible_16kb": true
+        }
+      ],
+      "needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc++_shared.so",
+        "libc.so"
+      ],
+      "unpackaged_non_system_dependencies": [],
+      "jni_entrypoints": {
+        "nativeCreate": true,
+        "nativeGenerate": true,
+        "nativeBackend": true,
+        "nativeDestroy": true
+      },
+      "cpu_backend_symbol_exported": true,
+      "obsolete_jni_exports_absent": true,
+      "gpu_backend_symbols_absent": true,
+      "gpu_loader_dependencies_absent": true,
+      "embedded_spirv_modules_magic_count": 0
+    },
+    {
+      "entry": "lib/arm64-v8a/libmeltype_official_jni.so",
+      "sha256": "95a7f7fea20e607ecdad3c012249f4c0bee1ef6bbcd45e3e58bc50c95d18f1af",
+      "bytes": 35776,
+      "elf64_aarch64": true,
+      "zip_stored": true,
+      "zip_data_offset": 32473088,
+      "zip_aligned_16kb": true,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 31888,
+          "vaddr": 48272,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 32960,
+          "vaddr": 65728,
+          "alignment": 16384,
+          "compatible_16kb": true
+        }
+      ],
+      "needed": [
+        "libMeltypeNative.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "unpackaged_non_system_dependencies": []
+    },
+    {
+      "entry": "lib/arm64-v8a/libmozc.so",
+      "sha256": "8fbefd21dae180ee94db6fd9d3f156da759f3eb7185ffec9cb5abadef01ec711",
+      "bytes": 5464944,
+      "elf64_aarch64": true,
+      "zip_stored": true,
+      "zip_data_offset": 32522240,
+      "zip_aligned_16kb": true,
+      "load_segments": [
+        {
+          "offset": 0,
+          "vaddr": 0,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 5275648,
+          "vaddr": 5275648,
+          "alignment": 16384,
+          "compatible_16kb": true
+        },
+        {
+          "offset": 5444616,
+          "vaddr": 5461000,
+          "alignment": 16384,
+          "compatible_16kb": true
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "unpackaged_non_system_dependencies": []
+    }
+  ],
+  "licenses": [
+    {
+      "asset": "assets/licenses/GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "matches_current_asset": true
+    },
+    {
+      "asset": "assets/licenses/dotnet-LICENSE.txt",
+      "bytes": 1116,
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+      "matches_current_asset": true
+    },
+    {
+      "asset": "assets/licenses/dotnet-nativeaot-NOTICES.txt",
+      "bytes": 76623,
+      "sha256": "66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54",
+      "matches_current_asset": true
+    },
+    {
+      "asset": "assets/licenses/llama.cpp-LICENSE.txt",
+      "bytes": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "matches_current_asset": true
+    },
+    {
+      "asset": "assets/licenses/native-dependencies-NOTICE.txt",
+      "bytes": 34883,
+      "sha256": "7164c1cd2c61afe818c48e6ae544d0a7430ddabf3dd90677158146674bcf6d82",
+      "matches_current_asset": true
+    },
+    {
+      "asset": "assets/licenses/official-android-NOTICES.md",
+      "bytes": 4596,
+      "sha256": "a76a032df6ce42bb6b47f31d63a3e473761d8b76e658a391c4880e454720a58e",
+      "matches_current_asset": true
+    },
+    {
+      "asset": "assets/licenses/zenz-v3.2-APACHE-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "matches_current_asset": true
+    },
+    {
+      "asset": "assets/licenses/zenz-v3.2-small-NOTICE.txt",
+      "bytes": 355,
+      "sha256": "1c85bb06ea214cadd7f4ad1fcb56a569fa31fca6af6df3395c9072c86c0a6718",
+      "matches_current_asset": true
+    }
+  ],
+  "findings": [],
+  "model": {
+    "asset": "assets/models/zenz-v3.2-small-Q5_K_M.gguf",
+    "bytes": 73871936,
+    "sha256": "29c223d4c23327b80fd13ebb5ab2555057a46317997d5da391584ffbef0db673",
+    "matches_pinned_model": true,
+    "stored_uncompressed": true
+  },
+  "official_core_commit": "53fa7851c7fe30602b20be3b33c3078b2cd71111",
+  "pinned_mozc_assets": {
+    "lib/arm64-v8a/libmozc.so": true,
+    "assets/mozc.data": true,
+    "assets/MOZC_NOTICES.txt": true
+  },
+  "cpp_runtime_notices_present": true,
+  "internet_permission_absent": true,
+  "declared_permissions": [],
+  "zipalign_16kb_pass": true,
+  "badging": [
+    "package: name='local.mnishi.meltype.android' versionCode='9' versionName='0.8.0' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'",
+    "sdkVersion:'29'",
+    "targetSdkVersion:'35'"
+  ],
+  "build_reference_audit": {
+    "files": [
+      "app/build.gradle.kts",
+      "build.gradle.kts",
+      "settings.gradle.kts",
+      "core-native/CMakeLists.txt",
+      "vendor/meltype-official/android/mozc/build.gradle.kts"
+    ],
+    "absolute_other_project_refs": [],
+    "source_symlinks": [],
+    "finding": "Native source inputs resolve within this Android project; system SDK/CMake tools are separate from source inputs."
+  },
+  "zenzai_tokenizer_patch": {
+    "path": "vendor/patches/zenz-v3-tokenizer.patch",
+    "sha256": "651413f5624f1e422064f82d1ce9a39a5940ee931de8a18df393e2de00d4a81f",
+    "source_sha256": "efc7dd7ffcaa3da03299c1a4ac7e6403e091530f6e165223fc4fca6659c44416"
+  }
+}

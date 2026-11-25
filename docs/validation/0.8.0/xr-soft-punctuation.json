@@ -1,0 +1,114 @@
+{
+  "environment": "Android XR glasses emulator",
+  "apk_sha256": "82c208d475d814ca8d3e43d29ce449571894d7eb8437de0961808f5b31b173e6",
+  "results": [
+    {
+      "input": ".",
+      "before": {
+        "text": "GitHub",
+        "selection": [
+          6,
+          6
+        ],
+        "composing": [
+          -1,
+          -1
+        ]
+      },
+      "preview": {
+        "text": "GitHub。",
+        "selection": [
+          7,
+          7
+        ],
+        "composing": [
+          6,
+          7
+        ]
+      },
+      "finalized": {
+        "text": "GitHub。",
+        "selection": [
+          7,
+          7
+        ],
+        "composing": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "input": ",",
+      "before": {
+        "text": "GitHub",
+        "selection": [
+          6,
+          6
+        ],
+        "composing": [
+          -1,
+          -1
+        ]
+      },
+      "preview": {
+        "text": "GitHub、",
+        "selection": [
+          7,
+          7
+        ],
+        "composing": [
+          6,
+          7
+        ]
+      },
+      "finalized": {
+        "text": "GitHub、",
+        "selection": [
+          7,
+          7
+        ],
+        "composing": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "input": "/",
+      "before": {
+        "text": "GitHub",
+        "selection": [
+          6,
+          6
+        ],
+        "composing": [
+          -1,
+          -1
+        ]
+      },
+      "preview": {
+        "text": "GitHub・",
+        "selection": [
+          7,
+          7
+        ],
+        "composing": [
+          6,
+          7
+        ]
+      },
+      "finalized": {
+        "text": "GitHub・",
+        "selection": [
+          7,
+          7
+        ],
+        "composing": [
+          -1,
+          -1
+        ]
+      }
+    }
+  ]
+}

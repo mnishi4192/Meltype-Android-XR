@@ -1,0 +1,31 @@
+{
+  "meltype": {
+    "repository": "https://github.com/yksr-melt/Meltype",
+    "tag": "v1.7.1",
+    "commit": "53fa7851c7fe30602b20be3b33c3078b2cd71111",
+    "source_archive": "https://codeload.github.com/yksr-melt/Meltype/tar.gz/refs/tags/v1.7.1",
+    "source_archive_sha256": "e7887e35cb0754534e5c2c153e6ed80fcecb5a545b87142b430bd4a8bd454106"
+  },
+  "android_mozc": {
+    "repository": "https://github.com/google/mozc",
+    "commit": "a069a88d4cb5c011de0f9aebb6c149a1c808d904",
+    "pin_in_meltype_source": "android/mozc/MOZC_COMMIT",
+    "release_source_commit": "d5c8e4d89a65fce9c980dec235001e00fb7fbf30",
+    "release_apk": "https://github.com/yksr-melt/Meltype/releases/download/android-v0.1.0-preview.1/Meltype.apk",
+    "release_apk_sha256": "a4e46a6cbae6d0e70cd1867e2964cee48876813e01d97b1c9b9a38ee6ee5fe73",
+    "release_apk_signer_sha256": "78449db8f2e32c737c60ed75da3f285638f5e8b06387613326a6dbbf819c6533",
+    "extracted_sha256": {
+      "lib/arm64-v8a/libmozc.so": "8fbefd21dae180ee94db6fd9d3f156da759f3eb7185ffec9cb5abadef01ec711",
+      "assets/mozc.data": "720d0cb42651fe35692578ea5f3c752940b8357fc24efc46230c904d2f5d5d70",
+      "assets/MOZC_NOTICES.txt": "413c4346434ac521d18ea02fc1ee904a3f71594fa0c931b6b1caf874b7e2bc99"
+    }
+  },
+  "native_aot_build": {
+    "dotnet_sdk": "10.0.404",
+    "dotnet_runtime_pack": "10.0.15",
+    "ndk": "30.0.16248370",
+    "runtime_identifier": "linux-bionic-arm64",
+    "android_api": 29,
+    "native_library": "libMeltypeNative.so"
+  }
+}

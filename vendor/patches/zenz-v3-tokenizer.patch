@@ -1,0 +1,27 @@
+--- a/src/llama-vocab.cpp
++++ b/src/llama-vocab.cpp
+@@ -2517,6 +2517,7 @@
+                 pre_type = LLAMA_VOCAB_PRE_TYPE_STARCODER;
+             } else if (
+                     tokenizer_pre == "gpt-2"   ||
++                    tokenizer_pre == "gpt2-small-japanese-char" || // Zenzai: same pre-split as azooKey/llama.cpp b4846
+                     tokenizer_pre == "phi-2"   ||
+                     tokenizer_pre == "jina-es" ||
+                     tokenizer_pre == "jina-de" ||
+@@ -2984,6 +2985,16 @@
+             } else {
+                 id = new_id;
+             }
++        }
++
++        // The pinned zenz-v3 GGUF has stale BOS/EOS metadata. Resolve the
++        // reserved tokens by text to match the official azooKey runtime's
++        // token layout, without changing the model or unrelated tokenizers.
++        if (tokenizer_pre == "gpt2-small-japanese-char") {
++            special_unk_id = token_to_id.at("[UNK]");
++            special_pad_id = token_to_id.at("[PAD]");
++            special_bos_id = token_to_id.at("<s>");
++            special_eos_id = token_to_id.at("</s>");
+         }
+ 
+         // Handle add_bos, add_eos and add_sep

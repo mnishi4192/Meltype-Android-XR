@@ -1,0 +1,9 @@
+Zenzai model: zenz-v3.2-small, Q5_K_M GGUF
+Model repository: https://huggingface.co/Miwa-Keita/zenz-v3.2-small-gguf
+Released by Miwa-Keita (azooKey).
+Upstream commit: c67e03e07d215c869f591b274c1631170d3e11fe
+SHA-256: 29c223d4c23327b80fd13ebb5ab2555057a46317997d5da391584ffbef0db673
+License metadata for this exact revision:
+https://huggingface.co/Miwa-Keita/zenz-v3.2-small-gguf/resolve/c67e03e07d215c869f591b274c1631170d3e11fe/README.md
+The model file from this revision is bundled unmodified under Apache License 2.0.
+See zenz-v3.2-APACHE-2.0.txt for the license text.

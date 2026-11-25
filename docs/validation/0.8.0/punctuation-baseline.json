@@ -1,0 +1,121 @@
+{
+  "environment": "Android 15 emulator",
+  "build": 8,
+  "apk_sha256": "a7f2d4133a59ff5ae2b2829fae2095274b4f71357e4def5ca8d042e1409436a4",
+  "checks": {
+    "abc-period": {
+      "before": "ABC",
+      "preview": "ABC。",
+      "final": "ABC。",
+      "candidate_range_before_enter": [
+        0,
+        4
+      ]
+    },
+    "abc-comma": {
+      "before": "ABC",
+      "preview": "ABC、",
+      "final": "ABC、",
+      "candidate_range_before_enter": [
+        0,
+        4
+      ]
+    },
+    "abc-slash": {
+      "before": "ABC",
+      "preview": "ABC/",
+      "final": "ABC/",
+      "candidate_range_before_enter": [
+        0,
+        4
+      ]
+    },
+    "github-period": {
+      "before": "GitHub",
+      "preview": "GitHub。",
+      "final": "GitHub。",
+      "candidate_range_before_enter": [
+        0,
+        7
+      ]
+    },
+    "this-comma": {
+      "before": "This",
+      "preview": "This、",
+      "final": "This、",
+      "candidate_range_before_enter": [
+        0,
+        5
+      ]
+    },
+    "github-slash": {
+      "before": "GitHub",
+      "preview": "GitHub/",
+      "final": "GitHub/",
+      "candidate_range_before_enter": [
+        0,
+        7
+      ]
+    },
+    "committed-period": {
+      "before": "GitHub",
+      "preview": "GitHub.",
+      "final": "GitHub.",
+      "candidate_range_before_enter": [
+        6,
+        7
+      ]
+    },
+    "committed-comma": {
+      "before": "GitHub",
+      "preview": "GitHub,",
+      "final": "GitHub,",
+      "candidate_range_before_enter": [
+        6,
+        7
+      ]
+    },
+    "committed-slash": {
+      "before": "GitHub",
+      "preview": "GitHub/",
+      "final": "GitHub/",
+      "candidate_range_before_enter": [
+        6,
+        7
+      ]
+    },
+    "ascii-decimal": {
+      "before": "12",
+      "preview": "12.5",
+      "final": "12.5",
+      "candidate_range_before_enter": [
+        0,
+        4
+      ]
+    },
+    "technical-url": {
+      "before": "example",
+      "preview": "example.com/path",
+      "final": "example.com/path",
+      "candidate_range_before_enter": [
+        0,
+        16
+      ]
+    },
+    "technical-mail": {
+      "before": "舐め",
+      "preview": "name@example.com",
+      "final": "name@example.com",
+      "candidate_range_before_enter": [
+        0,
+        16
+      ]
+    },
+    "config": {
+      "JapanesePunctuationAfterEnglish": true,
+      "Punctuation": "Japanese",
+      "Slash": "MiddleDot",
+      "LiveConversion": true
+    }
+  }
+}

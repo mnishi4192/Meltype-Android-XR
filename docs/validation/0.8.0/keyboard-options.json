@@ -1,0 +1,323 @@
+{
+  "environment": "Android 15 emulator",
+  "apk_sha256": "82c208d475d814ca8d3e43d29ce449571894d7eb8437de0961808f5b31b173e6",
+  "checks": {
+    "defaults": {
+      "auto_hide": true,
+      "cursor_drag": true,
+      "delete_drag": true
+    },
+    "auto-on": {
+      "visible": {
+        "qwerty": true,
+        "show": false,
+        "hide": true,
+        "picker": true,
+        "popup": false,
+        "editor": "Multiline"
+      },
+      "modifiers": {
+        "qwerty": true,
+        "show": false,
+        "hide": true,
+        "picker": true,
+        "popup": false,
+        "editor": "Multiline"
+      },
+      "typing": {
+        "qwerty": false,
+        "show": true,
+        "hide": false,
+        "picker": true,
+        "popup": false,
+        "editor": "橋"
+      },
+      "candidate": {
+        "qwerty": false,
+        "show": true,
+        "hide": false,
+        "picker": true,
+        "popup": true,
+        "editor": "橋"
+      },
+      "systemPicker": true,
+      "manualRestore": {
+        "qwerty": true,
+        "show": false,
+        "hide": true,
+        "picker": true,
+        "popup": false,
+        "editor": "橋"
+      }
+    },
+    "auto-off": {
+      "visible": {
+        "qwerty": true,
+        "show": false,
+        "hide": true,
+        "picker": true,
+        "popup": false,
+        "editor": "Multiline"
+      },
+      "modifiers": {
+        "qwerty": true,
+        "show": false,
+        "hide": true,
+        "picker": true,
+        "popup": false,
+        "editor": "Multiline"
+      },
+      "typing": {
+        "qwerty": true,
+        "show": false,
+        "hide": true,
+        "picker": true,
+        "popup": false,
+        "editor": "橋"
+      },
+      "candidate": {
+        "qwerty": true,
+        "show": false,
+        "hide": true,
+        "picker": true,
+        "popup": true,
+        "editor": "橋"
+      }
+    },
+    "cursor-off-deletion-on-states": {
+      "auto_hide": false,
+      "cursor_drag": false,
+      "delete_drag": true
+    },
+    "cursor-on-deletion-off-states": {
+      "auto_hide": false,
+      "cursor_drag": true,
+      "delete_drag": false
+    },
+    "cursor-off": {
+      "before": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 15,
+        "end": 15
+      },
+      "early": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 15,
+        "end": 15
+      },
+      "held": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 15,
+        "end": 15
+      },
+      "release": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 15,
+        "end": 15
+      },
+      "later": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 15,
+        "end": 15
+      },
+      "ordinaryTap": {
+        "before": {
+          "text": "Multiline",
+          "start": -1,
+          "end": -1
+        },
+        "release": {
+          "text": " ",
+          "start": 1,
+          "end": 1
+        },
+        "later": {
+          "text": " ",
+          "start": 1,
+          "end": 1
+        }
+      }
+    },
+    "cursor-on": {
+      "left": {
+        "before": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 15,
+          "end": 15
+        },
+        "early": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 14,
+          "end": 14
+        },
+        "held": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 8,
+          "end": 8
+        },
+        "release": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 7,
+          "end": 7
+        },
+        "later": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 7,
+          "end": 7
+        }
+      },
+      "right": {
+        "before": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 15,
+          "end": 15
+        },
+        "early": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 16,
+          "end": 16
+        },
+        "held": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 22,
+          "end": 22
+        },
+        "release": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 23,
+          "end": 23
+        },
+        "later": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 23,
+          "end": 23
+        }
+      },
+      "up": {
+        "before": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 25,
+          "end": 25
+        },
+        "early": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 8,
+          "end": 8
+        },
+        "held": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 0,
+          "end": 0
+        },
+        "release": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 0,
+          "end": 0
+        },
+        "later": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 0,
+          "end": 0
+        }
+      },
+      "down": {
+        "before": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 25,
+          "end": 25
+        },
+        "early": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 41,
+          "end": 41
+        },
+        "held": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 50,
+          "end": 50
+        },
+        "release": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 50,
+          "end": 50
+        },
+        "later": {
+          "text": "abcdefghijklmnop\nqrstuvwxyzABCDEF\nGHIJKLMNOPQRSTUV",
+          "start": 50,
+          "end": 50
+        }
+      }
+    },
+    "deletion-off": {
+      "before": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 22,
+        "end": 22
+      },
+      "early": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 22,
+        "end": 22
+      },
+      "held": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 22,
+        "end": 22
+      },
+      "release": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 22,
+        "end": 22
+      },
+      "later": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 22,
+        "end": 22
+      },
+      "ordinaryTap": {
+        "before": {
+          "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+          "start": 22,
+          "end": 22
+        },
+        "release": {
+          "text": "1234567890abcdefghijkmnopqrstuvwxzy",
+          "start": 21,
+          "end": 21
+        },
+        "later": {
+          "text": "1234567890abcdefghijkmnopqrstuvwxzy",
+          "start": 21,
+          "end": 21
+        }
+      }
+    },
+    "deletion-on": {
+      "before": {
+        "text": "1234567890abcdefghijklmnopqrstuvwxzy",
+        "start": 22,
+        "end": 22
+      },
+      "early": {
+        "text": "1234567890abcdefghijkmnopqrstuvwxzy",
+        "start": 21,
+        "end": 21
+      },
+      "held": {
+        "text": "1234567890abcdefgmnopqrstuvwxzy",
+        "start": 17,
+        "end": 17
+      },
+      "release": {
+        "text": "1234567890abcdefmnopqrstuvwxzy",
+        "start": 16,
+        "end": 16
+      },
+      "later": {
+        "text": "1234567890abcdefmnopqrstuvwxzy",
+        "start": 16,
+        "end": 16
+      }
+    }
+  }
+}

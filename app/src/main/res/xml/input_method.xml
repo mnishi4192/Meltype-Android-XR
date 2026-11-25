@@ -1,0 +1,9 @@
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="local.mnishi.meltype.android.settings.SettingsActivity">
+    <subtype
+        android:label="@string/japanese_subtype"
+        android:languageTag="ja-JP"
+        android:imeSubtypeLocale="ja_JP"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true" />
+</input-method>

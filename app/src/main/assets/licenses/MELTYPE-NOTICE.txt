@@ -1,0 +1,18 @@
+Meltype Android XR
+
+Copyright (C) 2026 雪代 / Yukishiro (@yksr_melt / @yksr-melt) (Meltype)
+Copyright (C) 2026 Meltype Android XR contributors (Android XR modifications)
+
+This independent fork uses Meltype v1.7.1.
+https://github.com/yksr-melt/Meltype/tree/v1.7.1
+
+The Android XR changes through November 25, 2026 cover the keyboard, gestures,
+input connection, settings, candidate display, symbol handling, and Zenzai CPU
+integration. Third-party components retain their own licenses.
+
+This program is free software. You can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or any later version.
+
+This program is distributed WITHOUT ANY WARRANTY. See the GNU General Public
+License in GPL-3.0.txt for details.

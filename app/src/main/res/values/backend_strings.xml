@@ -1,0 +1,19 @@
+<resources>
+    <string name="setup_description">画面のQWERTYと物理キーボードで使える日本語入力です。</string>
+    <string name="ime_switch_explanation">Gboardなどを使う場合は、先に端末へインストールし、Androidの入力方式設定で有効にしてください。このボタンから選択できます。物理キーボード接続中に画面キーボードが出ない場合は、Androidの物理キーボード設定で画面キーボードの使用を有効にします。</string>
+    <string name="inference_heading">CPU推論</string>
+    <string name="inference_description">変換モデルはCPUで動作します。スレッド数の変更は次の変換から反映されます。</string>
+    <string name="inference_threads">CPUスレッド数</string>
+    <string-array name="inference_thread_labels">
+        <item>自動</item><item>1スレッド</item><item>2スレッド</item><item>4スレッド</item><item>8スレッド</item>
+    </string-array>
+    <string name="inference_explanation">モデルを同梱しているため、通信なしで変換できます。「自動」では端末に合わせてスレッド数を決めます。</string>
+    <string name="ctrl_space_toggles">Ctrl＋Spaceで日本語／英数を切り替える</string>
+    <string name="keyboard_help">画面のキーにポインターを合わせ、ピンチまたはタップで入力します。物理キーボードではSpaceで変換し、表示中の候補を数字や矢印で選び、Enterで確定します。</string>
+    <string name="candidate_katakana">カナ</string>
+    <string name="candidate_alphanumeric">英数</string>
+    <string name="candidate_settings">設定</string>
+    <item name="input_test_field" type="id" />
+    <string name="licenses">ライセンスとモデルの出典</string>
+    <string name="close">閉じる</string>
+</resources>

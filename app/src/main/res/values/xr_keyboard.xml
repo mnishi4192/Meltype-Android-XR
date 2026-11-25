@@ -1,0 +1,21 @@
+<resources>
+    <string name="xr_keyboard_title">Meltype キーボード</string>
+    <string name="xr_key_space">スペース</string>
+    <string name="xr_key_convert">変換</string>
+    <string name="xr_key_confirm">確定</string>
+    <string name="xr_key_delete">削除</string>
+    <string name="xr_key_shift">次の英字を大文字にする</string>
+    <string name="xr_key_shift_off">大文字のシフトを解除する</string>
+    <string name="xr_key_symbols">数字と記号</string>
+    <string name="xr_key_more_symbols">その他の記号</string>
+    <string name="xr_key_alphabet">英字キーボード</string>
+    <string name="xr_key_flick_up">↑ %1$s</string>
+    <string name="xr_key_flick_down">↓ %1$s</string>
+    <string name="xr_key_newline">改行</string>
+    <string name="xr_key_done">完了</string>
+    <string name="xr_key_go">移動</string>
+    <string name="xr_key_next">次へ</string>
+    <string name="xr_key_previous">前へ</string>
+    <string name="xr_key_send">送信</string>
+    <string name="xr_key_search">検索</string>
+</resources>

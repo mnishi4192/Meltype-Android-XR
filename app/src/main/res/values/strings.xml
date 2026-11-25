@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meltype Android</string>
+    <string name="japanese_subtype">日本語・QWERTY</string>
+    <string name="input_settings">入力方式の設定を開く</string>
+    <string name="input_picker">別のIMEに切り替える</string>
+    <string name="test_field">ここで入力を試す</string>
+</resources>
