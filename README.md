@@ -10,7 +10,11 @@ Android XRの **XREAL AURA向け**に、私自身の使い方に合わせて改�
 
 ## インストールと初期設定
 
-GitHub ReleasesにAPKが掲載されている場合は、同じリリースのSHA-256で照合してインストールしてください。ソースから作成する手順も下に記載しています。
+apkは以下よりダウンロードします。
+
+[Meltype Android XR v0.8.0 リリースページ](https://github.com/mnishi4192/Meltype-Android-XR/releases/tag/v0.8.0)
+
+同じリリースのSHA-256で照合してインストールしてください。ソースから作成する手順も下に記載しています。
 
 1. インストール後に「Meltype Android」を開き、「入力方式の設定を開く」からMeltypeを有効にします。
 2. 「別のIMEに切り替える」からMeltypeを選び、「ここで入力を試す」で動作を確認します。
